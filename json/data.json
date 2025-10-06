@@ -1,0 +1,70 @@
+{
+  "Projects": [
+    {
+      "show": true,
+      "title": "Patient Campaign (Healthcare)",
+      "desc": [
+        "The Patient Campaign Project is a web-based application designed to enhance patient engagement through personalized campaigns. By prioritizing patient engagement, the system ensures better health outcomes and increased revenue streams, creating a win-win situation for both healthcare providers and patients"
+      ],
+      "year": "2024 - Present",
+      "preview": "https://www.patientcampaign.com/",
+      "code": "",
+      "thumbnail": "/image/projects/web/patientcampaign/pc1.png",
+      "images": [
+        "/image/projects/web/patientcampaign/pc1.png",
+        "/image/projects/web/patientcampaign/pc2.png",
+        "/image/projects/web/patientcampaign/pc3.png"
+      ],
+      "tech": [
+        "HTML",
+        "CSS",
+        "JS",
+        "ReactJS",
+        "NodeJS",
+        "AWS",
+        "Typescript",
+        "PostgreSQL"
+      ],
+      "slug": "patientcampaign",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Assess Right AI (Healthcare)",
+      "desc": [
+        "The Assess Right AI is a web-based solution designed for healthcare facilities to efficiently manage patient data, generate comprehensive medical reports, and optimise administrative operations. The system allows a Super Admin to manage facilities, while each facility can register new patients and upload their medical reports. The platform automatically generates a list of Non-Therapeutic Ancillaries (NTA) components, Medication, and Nursing Components based on patient reports."
+      ],
+      "year": "2024 - Present",
+      "preview": "https://assessrightai.com/",
+      "code": "",
+      "thumbnail": "/image/projects/web/assessrightai/pdpm1.png",
+      "images": [
+        "/image/projects/web/assessrightai/pdpm1.png",
+        "/image/projects/web/assessrightai/pdpm2.png",
+        "/image/projects/web/assessrightai/pdpm3.png"
+      ],
+      "tech": ["HTML", "CSS", "JS", "ReactJS", "NodeJS", "PostgreSQL", "AWS"],
+      "slug": "pdpm",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "PwC Official Project",
+      "desc": [
+        "PwC is a multinational professional services network, providing industry-focused assurance, advisory, and tax services to various sectors."
+      ],
+      "year": "2022 - 2023",
+      "preview": "https://www.pwc.com.au/",
+      "code": "",
+      "thumbnail": "/image/projects/web/pwc/pwc-thumbnail.jpg",
+      "images": [
+        "/image/projects/web/pwc/pwc1.png",
+        "/image/projects/web/pwc/pwc2.png",
+        "/image/projects/web/pwc/pwc3.png"
+      ],
+      "tech": ["HTML", "CSS", "JS", "ReactJS", "NodeJS", "PostgreSQL"],
+      "slug": "pwc",
+      "category": [1]
+    }
+  ]
+}

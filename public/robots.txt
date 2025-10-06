@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://siraj.com/sitemap2.xml
