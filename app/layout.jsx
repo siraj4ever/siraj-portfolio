@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { config } from "@fortawesome/fontawesome-svg-core";
@@ -6,7 +5,8 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 config.autoAddCss = false;
 import "./nprogress.css";
 import { Analytics } from "@vercel/analytics/react";
-const Providers = dynamic(() => import("./providers"), { ssr: false });
+import Providers from "./providers";
+import ClientComponents from "./ClientComponents";
 
 export const metadata = {
   title: "Siraj | Portfolio",
@@ -34,19 +34,16 @@ export const metadata = {
   },
 };
 
-const TopProgressBar = dynamic(() => import("@/components/TopProgressbar"), {
-  ssr: false,
-});
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
         <Providers>
-          <TopProgressBar />
-          <Navbar />
-          {children}
-          <Analytics />
+          <ClientComponents>
+            <Navbar />
+            {children}
+            <Analytics />
+          </ClientComponents>
         </Providers>
       </body>
     </html>
