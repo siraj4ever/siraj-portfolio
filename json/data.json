@@ -6,7 +6,7 @@
       "desc": [
         "The PDVSA Project is a web-based application developed to support operational management in the oil and gas industry. The platform allows users to monitor and manage various aspects of oil and gas operations, including production data, maintenance schedules, and safety protocols."
       ],
-      "year": "2025 - Present",
+      "year": "2025",
       "preview": "https://estaciones.pdvsa.app:81/",
       "code": "",
       "thumbnail": "/image/projects/web/pdvsa/pdvsa1.png",
@@ -61,7 +61,7 @@
       "desc": [
         "The Assess Right AI is a web-based solution designed for healthcare facilities to efficiently manage patient data, generate comprehensive medical reports, and optimise administrative operations. The system allows a Super Admin to manage facilities, while each facility can register new patients and upload their medical reports. The platform automatically generates a list of Non-Therapeutic Ancillaries (NTA) components, Medication, and Nursing Components based on patient reports."
       ],
-      "year": "2024 - 2024",
+      "year": "2024",
       "preview": "https://assessrightai.com/",
       "code": "",
       "thumbnail": "/image/projects/web/assessrightai/pdpm1.png",
@@ -91,6 +91,54 @@
       ],
       "tech": ["ReactJS", "NodeJS", "PostgreSQL", "HTML", "CSS", "JS"],
       "slug": "pwc",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Fuel Tracker",
+      "desc": [
+        "Fuel Tracker is a web-based application designed to track fuel consumption and manage vehicle expenses. The platform allows users to monitor fuel usage, track expenses, and generate reports."
+      ],
+      "year": "2026 - Present",
+      "preview": "https://fueltracker.sirajworld.in/",
+      "code": "",
+      "thumbnail": "/image/projects/web/fueltracker/fueltracker1.png",
+      "images": [
+        "/image/projects/web/fueltracker/fueltracker1.png",
+        "/image/projects/web/fueltracker/fueltracker2.png",
+        "/image/projects/web/fueltracker/fueltracker3.png",
+        "/image/projects/web/fueltracker/fueltracker4.png"
+      ],
+      "tech": [
+        "NextJS",
+        "NodeJS",
+        "Supabase",
+        "HTML",
+        "CSS",
+        "JS",
+        "TailwindCSS",
+        "etc"
+      ],
+      "slug": "fueltracker",
+      "category": [1]
+    },
+    {
+      "show": true,
+      "title": "Reviewsvisor",
+      "desc": [
+        "Reviewsvisor is a tool that analyzes Google Reviews to identify positive and negative points about your business. It provides actionable suggestions to help you address negative feedback and turn those weaknesses into positive improvements."
+      ],
+      "year": "2026 - Present",
+      "code": "",
+      "thumbnail": "/image/projects/web/reviewsvisor/rv1.png",
+      "images": [
+        "/image/projects/web/reviewsvisor/rv1.png",
+        "/image/projects/web/reviewsvisor/rv2.png",
+        "/image/projects/web/reviewsvisor/rv3.png",
+        "/image/projects/web/reviewsvisor/rv4.png"
+      ],
+      "tech": ["NextJS", "Supabase", "HTML", "CSS", "TailwindCSS", "etc"],
+      "slug": "reviewsvisor",
       "category": [1]
     }
   ]

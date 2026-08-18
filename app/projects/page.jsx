@@ -199,7 +199,7 @@ export default function Page() {
               <Button variation="primary">
                 <Link href="projects/pdvsa">More</Link>
               </Button>
-              <Button variation="secondary">
+              {/* <Button variation="secondary">
                 <a
                   href="https://estaciones.pdvsa.app:81/"
                   target="_blank"
@@ -207,7 +207,7 @@ export default function Page() {
                 >
                   Preview
                 </a>
-              </Button>
+              </Button> */}
             </div>
           </motion.div>
         </div>

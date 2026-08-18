@@ -38,6 +38,7 @@ export default function Stack() {
         <span className="text-black dark:text-white font-bold">ExpressJS</span>{" "}
         |{" "}
         <span className="text-black dark:text-white font-bold">PostgreSQL</span>{" "}
+        <span className="text-black dark:text-white font-bold">Supabase</span>{" "}
         |{" "}
         <span className="text-black dark:text-white font-medium">MongoDB</span>{" "}
         | <span className="text-black dark:text-white font-medium">NestJs</span>{" "}
