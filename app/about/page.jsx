@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import { motion } from "framer-motion";
 import Button from "@/components/Button";
 import Image from "next/image";
-import FixedButton from "@/components/FixedButton";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
@@ -25,13 +24,7 @@ export default function Page() {
 
 	return (
 		<>
-			<main className="overflow-hidden">
-				<FixedButton href="/#about">
-					<FontAwesomeIcon
-						icon={faChevronLeft}
-						className="text-black dark:text-white pr-10"
-					/>
-				</FixedButton>
+			<main className="overflow-hidden relative" style={{ zIndex: 1 }}>
 				<div className="relative h-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
 					{/* hero */}
 					<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">

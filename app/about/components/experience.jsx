@@ -97,6 +97,9 @@ export default function Experience() {
               <div className="bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-2 py-1 rounded-2xl">
                 PostgreSQL
               </div>
+               <div className="bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-2 py-1 rounded-2xl">
+                Supabase
+              </div>
               <div className="bg-gray-300 dark:bg-gray-700 text-black dark:text-white px-2 py-1 rounded-2xl">
                 MongoDB
               </div>

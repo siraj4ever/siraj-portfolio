@@ -46,17 +46,21 @@ export default function Skills() {
               <div className="font-medium">Web Development</div>
             </div>
             <div className="flex flex-col items-center gap-2">
-              <WebhookIcon className="w-12 h-12" />
-              <div className="font-medium">REST API</div>
-            </div>
-            <div className="flex flex-col items-center gap-2">
-              <ActivityIcon className="w-12 h-12" />
-              <div className="font-medium">JavaScript</div>
-            </div>
-            <div className="flex flex-col items-center gap-2">
               <MobileIcon className="w-12 h-12" />
               <div className="font-medium">Frontend Development</div>
             </div>
+            <div className="flex flex-col items-center gap-2">
+              <BackendIcon className="w-12 h-12" />
+            <div className="font-medium">Backend Development</div>
+            </div>
+            <div className="flex flex-col items-center gap-2">
+              <WebhookIcon className="w-12 h-12" />
+              <div className="font-medium">REST API</div>
+            </div>
+            {/* <div className="flex flex-col items-center gap-2">
+              <ActivityIcon className="w-12 h-12" />
+              <div className="font-medium">JavaScript</div>
+            </div> */}
           </div>
         </section>
       </Wrapper>
@@ -146,6 +150,28 @@ function MobileIcon(props) {
     >
       <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />
       <line x1="12" x2="12" y1="18" y2="18" />
+    </svg>
+  );
+}
+
+function BackendIcon(props) {
+  return (
+    <svg
+      {...props}
+      xmlns="http://www.w3.org/2000/svg"
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <rect width="20" height="8" x="2" y="2" rx="2" />
+      <rect width="20" height="8" x="2" y="14" rx="2" />
+      <line x1="6" x2="6.01" y1="6" y2="6" />
+      <line x1="6" x2="6.01" y1="18" y2="18" />
     </svg>
   );
 }

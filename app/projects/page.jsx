@@ -33,13 +33,7 @@ export default function Page() {
   }, []);
   return (
     <>
-      <main className="overflow-hidden">
-        <FixedButon href="/#projects">
-          <FontAwesomeIcon
-            icon={faChevronLeft}
-            className="text-black dark:text-white pr-10"
-          />
-        </FixedButon>
+      <main className="overflow-hidden relative" style={{ zIndex: 1 }}>
         <div className="relative h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
           <div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
             <motion.div

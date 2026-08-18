@@ -27,19 +27,10 @@ export default function Tools() {
         </span>{" "}
         |{" "}
         <span className="text-black dark:text-white font-bold">Cursor AI</span>{" "}
+        | <span className="text-black dark:text-white font-bold">Antigravity</span>{" "}
         | <span className="text-black dark:text-white font-bold">Github</span> |{" "}
         <span className="text-black dark:text-white font-bold">Figma</span> |{" "}
-        <span className="text-black dark:text-white font-bold">Canva</span> |{" "}
-        <span className="text-black dark:text-white font-bold">
-          Adobe Illustrator
-        </span>{" "}
-        |{" "}
-        <span className="text-black dark:text-white font-medium">
-          Adobe Photoshop
-        </span>{" "}
-        |{" "}
-        <span className="text-black dark:text-white font-bold">Coral Draw</span>{" "}
-        |{" "}
+        <span className="text-black dark:text-white font-bold">Canva</span>
       </p>
     </motion.div>
   );

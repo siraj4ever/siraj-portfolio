@@ -103,9 +103,6 @@ function Page({ params }) {
   }
   return (
     <div className="relative min-h-screen w-full gap-4 p-10 flex justify-center items-center flex-col mb-10 ">
-      <FixedButon href="/projects">
-        <FontAwesomeIcon icon={faChevronLeft} className="text-black dark:text-white pr-10" />
-      </FixedButon>
       <ScrollDownButton />
       <div className="min-h-screen flex justify-center items-center">
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2  mt-10 md:mt-0">
